@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Sharable CSS content ---------------------------*/
+
+
+.MainSideNav {
+    background-color: lightblue;
+    padding-left: 5px;
+    flex: 1;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.MainSideNav ul {
+    display: inline-block;
+    list-style-type: none;
+    font-weight: bold;
+    margin: 5px 0 0 5px;
+}
+.MainSideNav ul li{
+    margin: 25px 0 0 5px;
+}
+.MainSideNav ul li a:not(.NavProjectItem){
+    color: black;
+    border: 5px black solid;
+    background-color: white;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 1.5em;
+    
+}
+.NavProjectItem{
+    color: black;
+    border: 2px black solid;
+    padding: 5px;
+    background-color: white;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.TopHeaderEdwardsWebsite{
+    flex: 1;
+    color:white;
+    -webkit-text-stroke: 3px black;
+    text-align: center;
+    font-size: 3rem;
+    font-family: fantasy;
+    border-bottom: 5px solid black;
+}
+
+div.scroll {
+    margin:4px, 4px;
+    padding:4px;
+    background-color: green;
+    
+}
+
+/* Index CSS ---------------------------------*/
+
+#IndexBody{
+    background-image: linear-gradient(to right,lightblue, black, lightblue, lightskyblue, lightblue, black, lightblue);
+}
+
+.welcome {
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-family: fantasy;
+    -webkit-text-stroke: 3px black;
+    font-size: 6em;
+    width: 60%;
+    max-width: 1400px;
+    border: 20px solid;
+    border-color: black transparent;
+    margin: 20px auto;
+    padding: 15px 0px;
+    background-color: rgb(0,0,0,.3);
+}
+
+/* Navigation */
+.nav-Bar{
+    background: transparent;
+    color: black;
+    top: 0px;
+    padding: 25px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    z-index: 1;
+    width: 60%;
+    margin: 20px auto;
+    text-align: center;
+    border: 20px solid;
+    border-color: transparent black;
+    background-color: rgb(0,0,0,.3);
+    
+}
+
+.nav-Bar ul {
+    display: inline-block;
+}
+
+.nav-Bar li {
+    float: left;
+    margin: 5px 15px 5px 15px;
+    list-style: none;
+}
+.nav-Bar li:hover {
+    border-color: black transparent;
+}
+
+.nav-Bar li:hover a {
+    color: lightskyblue;
+    border-radius: 2px;
+    cursor: pointer;
+    border-color: black transparent;
+}
+
+.nav-Bar a {
+    text-decoration: none;
+    color: black;
+    background: white;
+    text-transform: uppercase;
+    padding: 0px 5px;
+    border: 5px solid black;
+    border-radius: 5px;
+    font-size: 2rem;
+}
+
+/* Home Page Header ---------------------------------*/
+
+#MainDescription{
+    font-size: 4em;
+    margin-top: 20;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    -webkit-text-stroke: 3px black;
+    font-family: fantasy;
+    text-shadow: 2px 4px 5px black;
+}
+
+header{
+    text-align: center;
+    background: grey;
+    background-image: url(../Img/Home/Index/IndexHeroImg.png);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: 10px solid black;
+    margin-bottom: 50px;
+    border-top: 10px solid black;
+    padding-top: 25px;
+    height: 450px;
+    box-shadow: inset 0 0 100px 50px rgba(0,0,0,1)
+}
+.proPic{
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+#IndexHeader {
+    margin: 10px 0;
+    font-weight: 900;
+    font-size: 400%;
+    color: white;
+    text-align: center;
+    -webkit-text-stroke: 3px black;
+    font-family: fantasy;
+}
+
+/* Project 1 ---------------------------------*/
+.MainContent {
+    display: flex;
+    border: 5px black solid;
+    background-image: linear-gradient(to bottom, black, lightblue, black);
+    height: 70vh;
+}
+.Project1Body {
+    flex-direction: column;
+}
+
+.Project1BodyBox {
+    flex: 4;
+    border: 1px #ccc solid;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.Project1Body {
+    background-color: rgb(0,0,0,.9);
+    color: white;
+    align-content: center;
+    width: 50%;
+    padding: 25px;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Project1Body h2 {
+    font-size: 2em;
+    text-align: center;
+}
+.Project1Body p {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.Project1Body #ricketyBotMsg{
+    width: 100%;
+    height: 50%;
+    max-height: 400px;
+}
+
+.Project1Body #ricketyBotRank{
+    width: 100%;
+    height: 50%;
+    max-height: 400px;
+}
+
+
+#Project1Img {
+    width: 100%;
+    height: 50%;
+    max-height: 400px;
+}
+
+/* Project2 -----------------------------*/
+#AboutMeHobbies {
+    margin-left: 15px;
+}
+
+#Project2Img {
+    width: 100%;
+    height: 50%;
+    max-height: 400px;
+}
+#Project3Img {
+    margin: 0px auto 0px 30%;
+    width: 40%;
+    height: 70%;
+    max-height: 1000px;
+}
+/* Media Queries -----------------------------*/
+/*
+@media (max-width: 1400px) {    
+    .nav-Bar{
+        text-align: center;
+        padding: 10 0;
+    }
+    .nav-Bar h1 {
+        float: none;
+        margin: 0;
+        font-weight: 900;
+        font-size: 2rem;
+    }
+    .nav-bar ul {
+        width: 100%;
+        margin: 10 auto 0;
+    }
+    .nav-Bar li {
+        text-transform: uppercase;
+        display: inline-block;
+        float: none;
+        list-style: none;
+        margin: 10px 0px;
+        font-size: 1.5rem;
+    }
+    .welcome {
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
+        font-family: fantasy;
+        -webkit-text-stroke: 3px black;
+        font-size: 3em;
+        width: 60%;
+        max-width: 1400px;
+        border: 20px solid;
+        border-color: black transparent;
+        margin: 20 auto;
+        padding: 15 0;
+        background-color: rgb(0,0,0,.3);
+    }
+    
+}*/
